@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+body{
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    padding: 15px;
+}
+.container h1{
+    color: hsl(210, 10%, 33%);
+    font-size: 22pt;
+    margin-top: 20px;
+    text-align: center;
+}
+.container p {
+   color: #b8c1c0;
+   font-size: 12pt;
+   margin-top: 20px;
+    text-align: center;
+}
+.buttons {
+    margin-top: 50px;
+}
+.buttons a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.btn-primary {
+    border: 1px solid #26bba5;
+    border-radius: 10px;
+    background-color: #26bba5;
+    padding: 10px;
+    box-shadow: rgb(38, 186, 164, 0.5) 0px 2px 8px 0px;
+}
+.btn-primary:hover {
+    background-color: hsl(171, 54%, 57%);
+}
+.btn-secondary{
+    border: 1px solid #5f74ff;
+    border-radius: 10px;
+    background-color: #5f74ff;
+    padding: 10px;
+    box-shadow: rgb(97, 115, 255, 0.5) 0px 2px 8px 0px;
+}
+.btn-secondary:hover {
+    background-color: hsl(233, 94%, 74%);
+}
+.section-content {
+    margin-top: 8.5rem;
+    margin-bottom: 5rem;
+}
+.section-content p,h1{
+    width: 610px;
+}
+#part-two {
+    display: flex;
+    gap: 5rem;
+}
+.element {
+    padding: 10px;
+    margin-top: 60px;  
+    width: 370px;
+}
+.element h3 {
+    color: hsl(210, 10%, 33%);
+}
+.element p {
+    color: #a3a7aa;
+}
+#devices-content-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.text-content {
+    text-align: center; 
+    width: 580px;
+}
+#part-four {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 5px;
+
+}
+#blacklist,#snippets,#preview{
+    width: 50%;
+}
+#part-four img{
+    margin-bottom: 15px;
+}
+#part-four h2{
+    color:  hsl(210, 10%, 33%);
+    padding: 5px;
+}
+#part-four p{
+    color: hsl(201, 11%, 66%);
+    padding: 5px;
+}
+#company-logo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+#last-part {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+}
+footer a:hover {
+    color: hsl(171, 75%, 58%);
+}
+#footer-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-logo img{
+    width: 60%;
+}
+.footer-elments{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center; 
+}
+#footer-icons i:hover{
+    color: hsl(171, 66%, 44%);
+}
+@media screen and (max-width:600px) {
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+    h1 {
+        width: 80%;
+    }
+    .section-content p{
+        width: 85%;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+    #part-two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #part-two img{
+        width: 75%;
+    }
+    #part-four{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #devices-content-part img{
+        width: 75%;
+    }
+    #company-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .logo-google,.logo-ibm,.logo-microsoft,.logo-hp,.logo-vector-graphics {
+        margin-top: 15px;
+    }
+    #footer-part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+    }
+}
